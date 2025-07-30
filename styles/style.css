@@ -2,29 +2,28 @@
   --white: hsl(0, 0%, 100%);
   --slate300: hsl(212, 45%, 89%);
   --slate500: hsl(216, 15%, 48%);
-  --slate700: hsl(218, 44%, 22%);
+  --slate900: hsl(218, 44%, 22%);
 }
 
 body {
   background-color: var(--slate300);
+  height: 98vh;
+  float: none;
 }
 
 .content {
-  height: 100%;
-  width: auto;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100%;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex: inline-block;
   background-color: var(--white);
   padding: 16px;
   margin: 0px;
-  height: 499px;
   border-radius: 20px;
 }
 
@@ -35,13 +34,32 @@ body {
   border-radius: 20px;
 }
 
+.text {
+  align-items: center;
+  margin-bottom: 40px;
+}
+
 p {
+  text-align: center;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  /* line-height: ; 
-  font-size: ;
-  letter-spacing: ; */
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: var(--slate500);
+  width: 288px;
+  margin: 0px;
+}
+
+.text #boldText {
+  margin-bottom: 16px;
+  color: var(--slate900);
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  font-weight: 700;
 }
 
 /* footer {

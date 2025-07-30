@@ -8,7 +8,6 @@
 body {
   background-color: var(--slate300);
   height: 98vh;
-  float: none;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -32,8 +31,13 @@ main {
   border-radius: 20px;
 }
 
+.content {
+  width: 288px;
+}
+
+.container img,
 #qrCode {
-  margin-bottom: 23px;
+  margin-bottom: 24px;
   width: 288px;
   height: 288px;
   border-radius: 10px;
@@ -54,10 +58,8 @@ h1 {
   line-height: 140%;
   letter-spacing: 0.2px;
   font-weight: 400;
-  width: 288px;
   margin: 0px;
   padding: 0px 16px;
-  box-sizing: border-box;
 }
 
 .text h1 {

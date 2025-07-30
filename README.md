@@ -9,7 +9,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [My solution URL](https://www.frontendmentor.io/solutions/css-flexbox-css-variables-iRxyhIpmBu)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://qr-code-project-inky.vercel.app)
 
 ## My process
 

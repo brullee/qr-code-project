@@ -40,6 +40,22 @@ body {
 }
 ```
 
+I also found that when the full width & hieght are used *(body width & height set to 100%)*, scrollbars apprear despite not being needed, so I temporarily opted for using 99% of the viewport, but that wasn't an ideal solutoin as it caused
+black borders appearing in the viewport window in Firefox. the solution for this was pretty simple:
+
+```css
+html,
+body {
+  background-color: var(--slate300);
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+```
+
+Removing the padding and the margin removed the black bars as well as the scrollbar, allowing me to use the full width and height of the viewport without any annoyances.
+
 ### Useful resources
 
 - [W3Schools](https://www.w3schools.com/css/default.asp) - This helped me refresh my memory on CSS in general, which made this challenge a little easier.
